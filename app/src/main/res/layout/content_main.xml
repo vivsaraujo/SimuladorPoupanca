@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vivian.simuladorpoupanca.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/tx_1"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="@dimen/fab_margin"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/edt_valor_inicial"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Digite valor em R$"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tx_2"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="@dimen/fab_margin"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/edt_aplicacao_mensal"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Digite aplicação em R$"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tx_3"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="@dimen/fab_margin"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/edt_tempo_aplicacao"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Digite tempo de aplicação"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tx_4"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="@dimen/fab_margin"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/edt_taxa"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Digite taxa da aplicação"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/bt_calcular"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Button"
+            android:textSize="@dimen/fab_margin"
+            android:textColor="@android:color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ScrollView>
+
+</LinearLayout>
